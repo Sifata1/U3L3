@@ -27,7 +27,13 @@ public class CatHouse
                 cat1.introduce();
             }
             else {
-                
+                if () {
+                    // compare alphabetically
+                }
+                else {
+                    cat1.introduce();
+                    cat2.introduce();
+                }
             }
         }
 
