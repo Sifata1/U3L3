@@ -13,10 +13,9 @@ public class CatHouseRunner
         System.out.println(cats);
 
         cats.rollCall();
+        System.out.println("\n");
 
-        // HERE IS TEST CODE; UNCOMMENT WHEN YOU NEED IT!
- /*
-    // ------- Test set 1 -------
+
     Cat garfield = new Cat("Garfield", 5);
     Cat crookshanks = new Cat("Crookshanks", 6);
 
@@ -80,6 +79,8 @@ public class CatHouseRunner
 
     sameCats.catNoise();
 
-    */
+    String str1 = new String("bob");
+    String str2 = new String("lol");
+    System.out.println(str1.compareTo(str2));
     }
 }
